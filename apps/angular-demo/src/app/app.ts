@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+// importing the component from the library
+import { Hero } from '@angular-demo/ui';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
+  imports: [RouterModule, Hero],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
